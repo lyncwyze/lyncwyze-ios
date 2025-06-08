@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE76F3C2D9DCF4000FCFF19 /* SwiftDotenv in Frameworks */ = {isa = PBXBuildFile; productRef = 2CE76F3B2D9DCF4000FCFF19 /* SwiftDotenv */; };
+		2CE76F3F2D9DCF6C00FCFF19 /* Toasts in Frameworks */ = {isa = PBXBuildFile; productRef = 2CE76F3E2D9DCF6C00FCFF19 /* Toasts */; };
+		8A0B19EE50686F744FE02E37 /* Pods_LyncWyze_LyncWyzeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F4C74831492F59D92984D5 /* Pods_LyncWyze_LyncWyzeUITests.framework */; };
+		B40B7744A5465BD628172955 /* Pods_LyncWyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF350E1DA75B64CAFD208E7 /* Pods_LyncWyze.framework */; };
+		E6A078DD1B952102E7DA2EED /* Pods_LyncWyzeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF46D7114B02B063E4CC3F4 /* Pods_LyncWyzeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE719D412D112BB700A320DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE719D222D112BB500A320DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE719D292D112BB500A320DE;
+			remoteInfo = LyncWyze;
+		};
+		BE719D4B2D112BB700A320DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE719D222D112BB500A320DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE719D292D112BB500A320DE;
+			remoteInfo = LyncWyze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051DEE522D27E77500281965 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		051DEE562D27E77C00281965 /* DateToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DateToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8ABD4D16372115E7659F83 /* Pods-LyncWyze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze.debug.xcconfig"; path = "Target Support Files/Pods-LyncWyze/Pods-LyncWyze.debug.xcconfig"; sourceTree = "<group>"; };
+		1E9633A502EDEA6C5E0FBDF7 /* Pods-LyncWyzeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyzeTests.release.xcconfig"; path = "Target Support Files/Pods-LyncWyzeTests/Pods-LyncWyzeTests.release.xcconfig"; sourceTree = "<group>"; };
+		22F4C74831492F59D92984D5 /* Pods_LyncWyze_LyncWyzeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyncWyze_LyncWyzeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A935A400D3BD4E294F1DCC /* Pods-LyncWyze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze.release.xcconfig"; path = "Target Support Files/Pods-LyncWyze/Pods-LyncWyze.release.xcconfig"; sourceTree = "<group>"; };
+		3E036D450B66243085F76C60 /* Pods-LyncWyze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze.release.xcconfig"; path = "Target Support Files/Pods-LyncWyze/Pods-LyncWyze.release.xcconfig"; sourceTree = "<group>"; };
+		4C3CE8D336DCB1181DF2D81D /* Pods-LyncWyzeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyzeTests.debug.xcconfig"; path = "Target Support Files/Pods-LyncWyzeTests/Pods-LyncWyzeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5637076CF3F7E1D5AD277B49 /* Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig"; path = "Target Support Files/Pods-LyncWyze-LyncWyzeUITests/Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DACEE0F00AC610A9455B260 /* Pods-LyncWyze-LyncWyzeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze-LyncWyzeUITests.release.xcconfig"; path = "Target Support Files/Pods-LyncWyze-LyncWyzeUITests/Pods-LyncWyze-LyncWyzeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63366F90D7AD923E7C1A4DBD /* Pods-LyncWyze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze.debug.xcconfig"; path = "Target Support Files/Pods-LyncWyze/Pods-LyncWyze.debug.xcconfig"; sourceTree = "<group>"; };
+		6CADADB204715FE2FA182C22 /* Pods-LyncWyzeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyzeTests.release.xcconfig"; path = "Target Support Files/Pods-LyncWyzeTests/Pods-LyncWyzeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FF350E1DA75B64CAFD208E7 /* Pods_LyncWyze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyncWyze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF46D7114B02B063E4CC3F4 /* Pods_LyncWyzeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyncWyzeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE606A7B2D12DB1E00FA57D4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE719D2A2D112BB500A320DE /* LyncWyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyncWyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE719D402D112BB700A320DE /* LyncWyzeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyncWyzeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE719D4A2D112BB700A320DE /* LyncWyzeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyncWyzeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0FD71BC1D44A9C9F6A9F97 /* Pods-LyncWyze-LyncWyzeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze-LyncWyzeUITests.release.xcconfig"; path = "Target Support Files/Pods-LyncWyze-LyncWyzeUITests/Pods-LyncWyze-LyncWyzeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF535107AA2E11FE4C682986 /* Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig"; path = "Target Support Files/Pods-LyncWyze-LyncWyzeUITests/Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E7FFA3D78D3FFC5991C28D /* Pods-LyncWyzeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyncWyzeTests.debug.xcconfig"; path = "Target Support Files/Pods-LyncWyzeTests/Pods-LyncWyzeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BE719D522D112BB700A320DE /* Exceptions for "LyncWyze" folder in "LyncWyze" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+				Resources/Info.plist,
+			);
+			target = BE719D292D112BB500A320DE /* LyncWyze */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BE719D2C2D112BB500A320DE /* LyncWyze */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BE719D522D112BB700A320DE /* Exceptions for "LyncWyze" folder in "LyncWyze" target */,
+			);
+			path = LyncWyze;
+			sourceTree = "<group>";
+		};
+		BE719D432D112BB700A320DE /* LyncWyzeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LyncWyzeTests;
+			sourceTree = "<group>";
+		};
+		BE719D4D2D112BB700A320DE /* LyncWyzeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LyncWyzeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE719D272D112BB500A320DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE76F3C2D9DCF4000FCFF19 /* SwiftDotenv in Frameworks */,
+				2CE76F3F2D9DCF6C00FCFF19 /* Toasts in Frameworks */,
+				B40B7744A5465BD628172955 /* Pods_LyncWyze.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE719D3D2D112BB700A320DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A078DD1B952102E7DA2EED /* Pods_LyncWyzeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE719D472D112BB700A320DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0B19EE50686F744FE02E37 /* Pods_LyncWyze_LyncWyzeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60D2E7D8C7B687F7D5C2D97B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C8ABD4D16372115E7659F83 /* Pods-LyncWyze.debug.xcconfig */,
+				3E036D450B66243085F76C60 /* Pods-LyncWyze.release.xcconfig */,
+				5637076CF3F7E1D5AD277B49 /* Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig */,
+				DA0FD71BC1D44A9C9F6A9F97 /* Pods-LyncWyze-LyncWyzeUITests.release.xcconfig */,
+				F3E7FFA3D78D3FFC5991C28D /* Pods-LyncWyzeTests.debug.xcconfig */,
+				6CADADB204715FE2FA182C22 /* Pods-LyncWyzeTests.release.xcconfig */,
+				63366F90D7AD923E7C1A4DBD /* Pods-LyncWyze.debug.xcconfig */,
+				29A935A400D3BD4E294F1DCC /* Pods-LyncWyze.release.xcconfig */,
+				EF535107AA2E11FE4C682986 /* Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig */,
+				5DACEE0F00AC610A9455B260 /* Pods-LyncWyze-LyncWyzeUITests.release.xcconfig */,
+				4C3CE8D336DCB1181DF2D81D /* Pods-LyncWyzeTests.debug.xcconfig */,
+				1E9633A502EDEA6C5E0FBDF7 /* Pods-LyncWyzeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE719D212D112BB500A320DE = {
+			isa = PBXGroup;
+			children = (
+				BE719D2C2D112BB500A320DE /* LyncWyze */,
+				BE719D432D112BB700A320DE /* LyncWyzeTests */,
+				BE719D4D2D112BB700A320DE /* LyncWyzeUITests */,
+				BE606A7B2D12DB1E00FA57D4 /* Podfile */,
+				BE719D2B2D112BB500A320DE /* Products */,
+				60D2E7D8C7B687F7D5C2D97B /* Pods */,
+				F6B14E04846894A8179DC944 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE719D2B2D112BB500A320DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE719D2A2D112BB500A320DE /* LyncWyze.app */,
+				BE719D402D112BB700A320DE /* LyncWyzeTests.xctest */,
+				BE719D4A2D112BB700A320DE /* LyncWyzeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B14E04846894A8179DC944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				051DEE562D27E77C00281965 /* DateToolsSwift.framework */,
+				051DEE522D27E77500281965 /* SwiftDate.framework */,
+				6FF350E1DA75B64CAFD208E7 /* Pods_LyncWyze.framework */,
+				22F4C74831492F59D92984D5 /* Pods_LyncWyze_LyncWyzeUITests.framework */,
+				8FF46D7114B02B063E4CC3F4 /* Pods_LyncWyzeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE719D292D112BB500A320DE /* LyncWyze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE719D532D112BB700A320DE /* Build configuration list for PBXNativeTarget "LyncWyze" */;
+			buildPhases = (
+				41C1AC3A68D72FD301CFB6EB /* [CP] Check Pods Manifest.lock */,
+				BE719D262D112BB500A320DE /* Sources */,
+				BE719D272D112BB500A320DE /* Frameworks */,
+				BE719D282D112BB500A320DE /* Resources */,
+				EC7AAD282C09869A2CA8C209 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BE719D2C2D112BB500A320DE /* LyncWyze */,
+			);
+			name = LyncWyze;
+			productName = LyncWyze;
+			productReference = BE719D2A2D112BB500A320DE /* LyncWyze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE719D3F2D112BB700A320DE /* LyncWyzeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE719D582D112BB700A320DE /* Build configuration list for PBXNativeTarget "LyncWyzeTests" */;
+			buildPhases = (
+				4CDE9EC598DCC2432263772E /* [CP] Check Pods Manifest.lock */,
+				BE719D3C2D112BB700A320DE /* Sources */,
+				BE719D3D2D112BB700A320DE /* Frameworks */,
+				BE719D3E2D112BB700A320DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE719D422D112BB700A320DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE719D432D112BB700A320DE /* LyncWyzeTests */,
+			);
+			name = LyncWyzeTests;
+			productName = LyncWyzeTests;
+			productReference = BE719D402D112BB700A320DE /* LyncWyzeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE719D492D112BB700A320DE /* LyncWyzeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE719D5B2D112BB700A320DE /* Build configuration list for PBXNativeTarget "LyncWyzeUITests" */;
+			buildPhases = (
+				AD9F0278E752F9A68A1E5A27 /* [CP] Check Pods Manifest.lock */,
+				BE719D462D112BB700A320DE /* Sources */,
+				BE719D472D112BB700A320DE /* Frameworks */,
+				BE719D482D112BB700A320DE /* Resources */,
+				A7F3BFB094B94C6D9EB48829 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE719D4C2D112BB700A320DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE719D4D2D112BB700A320DE /* LyncWyzeUITests */,
+			);
+			name = LyncWyzeUITests;
+			productName = LyncWyzeUITests;
+			productReference = BE719D4A2D112BB700A320DE /* LyncWyzeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE719D222D112BB500A320DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BE719D292D112BB500A320DE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BE719D3F2D112BB700A320DE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BE719D292D112BB500A320DE;
+					};
+					BE719D492D112BB700A320DE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BE719D292D112BB500A320DE;
+					};
+				};
+			};
+			buildConfigurationList = BE719D252D112BB500A320DE /* Build configuration list for PBXProject "LyncWyze" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				hi,
+			);
+			mainGroup = BE719D212D112BB500A320DE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05F816652D56141200EFDFB3 /* XCRemoteSwiftPackageReference "swift-dotenv" */,
+				2CE76F3D2D9DCF6C00FCFF19 /* XCRemoteSwiftPackageReference "swiftui-toasts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BE719D2B2D112BB500A320DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE719D292D112BB500A320DE /* LyncWyze */,
+				BE719D3F2D112BB700A320DE /* LyncWyzeTests */,
+				BE719D492D112BB700A320DE /* LyncWyzeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE719D282D112BB500A320DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE719D3E2D112BB700A320DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE719D482D112BB700A320DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C1AC3A68D72FD301CFB6EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyncWyze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDE9EC598DCC2432263772E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyncWyzeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F3BFB094B94C6D9EB48829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LyncWyze-LyncWyzeUITests/Pods-LyncWyze-LyncWyzeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LyncWyze-LyncWyzeUITests/Pods-LyncWyze-LyncWyzeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LyncWyze-LyncWyzeUITests/Pods-LyncWyze-LyncWyzeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9F0278E752F9A68A1E5A27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyncWyze-LyncWyzeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC7AAD282C09869A2CA8C209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LyncWyze/Pods-LyncWyze-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LyncWyze/Pods-LyncWyze-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LyncWyze/Pods-LyncWyze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE719D262D112BB500A320DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE719D3C2D112BB700A320DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE719D462D112BB700A320DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE719D422D112BB700A320DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE719D292D112BB500A320DE /* LyncWyze */;
+			targetProxy = BE719D412D112BB700A320DE /* PBXContainerItemProxy */;
+		};
+		BE719D4C2D112BB700A320DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE719D292D112BB500A320DE /* LyncWyze */;
+			targetProxy = BE719D4B2D112BB700A320DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE719D542D112BB700A320DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63366F90D7AD923E7C1A4DBD /* Pods-LyncWyze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = LyncWyze/LyncWyze.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S5S8CT4R3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LyncWyze/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LyncWyze;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We use your location in the background to continuously track ride and keep parents updated in real time.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to notify parents during ride and show the current location on the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelly.lyncwyze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE719D552D112BB700A320DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A935A400D3BD4E294F1DCC /* Pods-LyncWyze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = LyncWyze/LyncWyze.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S5S8CT4R3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LyncWyze/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LyncWyze;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We use your location in the background to continuously track ride and keep parents updated in real time.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to notify parents during ride and show the current location on the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelly.lyncwyze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE719D562D112BB700A320DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE719D572D112BB700A320DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE719D592D112BB700A320DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3CE8D336DCB1181DF2D81D /* Pods-LyncWyzeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5W6BQYM34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelly.LyncWyzeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyncWyze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LyncWyze";
+			};
+			name = Debug;
+		};
+		BE719D5A2D112BB700A320DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9633A502EDEA6C5E0FBDF7 /* Pods-LyncWyzeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5W6BQYM34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelly.LyncWyzeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyncWyze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LyncWyze";
+			};
+			name = Release;
+		};
+		BE719D5C2D112BB700A320DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF535107AA2E11FE4C682986 /* Pods-LyncWyze-LyncWyzeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5W6BQYM34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelly.LyncWyzeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LyncWyze;
+			};
+			name = Debug;
+		};
+		BE719D5D2D112BB700A320DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DACEE0F00AC610A9455B260 /* Pods-LyncWyze-LyncWyzeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5W6BQYM34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelly.LyncWyzeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LyncWyze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE719D252D112BB500A320DE /* Build configuration list for PBXProject "LyncWyze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE719D562D112BB700A320DE /* Debug */,
+				BE719D572D112BB700A320DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE719D532D112BB700A320DE /* Build configuration list for PBXNativeTarget "LyncWyze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE719D542D112BB700A320DE /* Debug */,
+				BE719D552D112BB700A320DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE719D582D112BB700A320DE /* Build configuration list for PBXNativeTarget "LyncWyzeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE719D592D112BB700A320DE /* Debug */,
+				BE719D5A2D112BB700A320DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE719D5B2D112BB700A320DE /* Build configuration list for PBXNativeTarget "LyncWyzeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE719D5C2D112BB700A320DE /* Debug */,
+				BE719D5D2D112BB700A320DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05F816652D56141200EFDFB3 /* XCRemoteSwiftPackageReference "swift-dotenv" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebarndog/swift-dotenv.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		2CE76F3D2D9DCF6C00FCFF19 /* XCRemoteSwiftPackageReference "swiftui-toasts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sunghyun-k/swiftui-toasts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CE76F3B2D9DCF4000FCFF19 /* SwiftDotenv */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05F816652D56141200EFDFB3 /* XCRemoteSwiftPackageReference "swift-dotenv" */;
+			productName = SwiftDotenv;
+		};
+		2CE76F3E2D9DCF6C00FCFF19 /* Toasts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CE76F3D2D9DCF6C00FCFF19 /* XCRemoteSwiftPackageReference "swiftui-toasts" */;
+			productName = Toasts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE719D222D112BB500A320DE /* Project object */;
+}

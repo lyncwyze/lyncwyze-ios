@@ -1,0 +1,456 @@
+// AppLanding View
+"welcome" = "Welcome!";
+"referral_from" = "Referral from %@";
+"continue" = "Continue";
+"selection_required" = "Selection Required";
+"please_select_provider" = "Please select a provider before continuing.";
+"provider_not_found" = "Provider not found?";
+"already_have_account" = "Already have an account?";
+"lets_sign_in" = "Let's Sign in";
+
+// NotifyMe View
+"enter_your_details" = "Enter your details";
+"let_us_know" = "Let us know how to properly address you.";
+"full_name" = "Full Name";
+"email_address" = "Email Address";
+"mobile_number_optional" = "Phone Number (Optional)";
+"subscribe_newsletter" = "Subscribe to our newsletter";
+"notify_me" = "Notify Me";
+"thank_you" = "Thank You!";
+"notify_area_message" = "We'll notify you as soon as we're available in your area.";
+"ok" = "OK";
+
+// Validation Messages
+"please_enter_name" = "Please enter your full name";
+"please_enter_email" = "Please enter your email address";
+"please_enter_valid_email" = "Please enter a valid email address";
+"email_already_registered" = "This email is already registered. Please use a different email address.";
+"invalid_request" = "Invalid request. Please try again.";
+"server_error" = "Server error. Please try again later.";
+"no_server_response" = "No response from server. Please try again.";
+"error_processing_response" = "Error processing server response: %@";
+"error_processing_encode" = "Error processing encode response. Please try again.";
+
+// AddressSearch View
+"select_provider" = "Select your provider";
+"select_home_address" = "Select your home address";
+
+// StartYourJourney View
+"great_news" = "Great News!! We are servicing your area!!";
+"real_time_users" = "Real-Time User Base";
+"carpools_scheduled" = "Number of Carpools Scheduled";
+"co2_saved" = "Pounds of CO₂ Saved";
+"start_journey" = "Start Your Journey";
+
+// Vehicle Details View
+"vehicle_details_title" = "Vehicle Details";
+"add_vehicle_title" = "Add Vehicle";
+"edit_vehicle_title" = "Edit Vehicle";
+"make_label" = "Make";
+"model_label" = "Model";
+"body_style_label" = "Body Style";
+"body_color_label" = "Body Color";
+"license_plate_label" = "License Plate";
+"alias_label" = "Alias";
+"primary_vehicle_toggle" = "Is this your primary vehicle?";
+"enter_make_placeholder" = "Enter Make";
+"enter_model_placeholder" = "Enter Model";
+"enter_body_color_placeholder" = "Enter Body Color";
+"enter_license_plate_placeholder" = "Enter License Plate";
+"enter_alias_placeholder" = "Enter Alias (Optional)";
+"delete_vehicle_button" = "Delete Vehicle";
+"update_button" = "Update";
+"save_button" = "Save";
+"next_emergency_contact" = "Next: Add Emergency Contact (7/8)";
+"delete_vehicle_alert_title" = "Delete Vehicle";
+"delete_vehicle_alert_message" = "Are you sure you want to delete this vehicle?";
+"cancel_button" = "Cancel";
+"delete_button" = "Delete";
+"error_alert_title" = "Error";
+"required_fields_error" = "Please fill in all required fields";
+"error_occurred" = "An error occurred";
+"failed_to_delete_vehicle" = "Failed to delete vehicle";
+
+// Vehicle Details Summary View
+"no_vehicle_added" = "No Vehicle Added";
+"add_vehicle_message" = "Add your vehicle details to ensure parents are notified about their child's ride and safety updates in real time.";
+"add_another_vehicle" = "Add Another Vehicle";
+"year_label" = "Year";
+"seating_capacity_label" = "Seating Capacity";
+"seats_label" = "%d seats";
+"failed_to_update_vehicle" = "Failed to update vehicle";
+"primary_vehicle_label" = "Primary Vehicle";
+"vehicle_details_summary_title" = "Vehicle Details";
+"ok_button" = "OK";
+
+// Settings View
+"settings_title" = "Settings";
+"account_section" = "Account";
+"profile" = "Profile";
+"payment_methods" = "Payment Methods";
+"preferences_section" = "Preferences";
+"notifications" = "Notifications";
+"dark_mode" = "Dark Mode";
+"support_section" = "Support";
+"help_center" = "Help Center";
+"faqs" = "FAQs";
+"contact_support" = "Contact Support";
+"about_section" = "About";
+"privacy_policy" = "Privacy Policy";
+"terms_of_service" = "Terms of Service";
+"delete_account" = "Delete Account";
+"logout" = "Logout";
+"logout_alert_title" = "Logout";
+"logout_alert_message" = "Are you sure you want to logout?";
+
+// Schedule Ride Child List View
+"select_child_title" = "Select Child";
+"no_children_added" = "No Children Added";
+"add_children_message" = "Add children to schedule activities";
+"choose_child_message" = "Choose a child to view activity";
+
+// Schedule Ride Activity Detail View
+"activity_details_title" = "%@ %@ - Activity Details";
+"no_activities_scheduled" = "No activities scheduled for %@";
+"retry_button" = "Retry";
+
+// Schedule Ride Confirm Activity
+"confirm_time_button" = "Confirm The Time";
+"cancel_button" = "Cancel";
+"probability_message" = "Probability of getting the ride: %@";
+"schedule_added_message" = "Schedule added in queue";
+"error_alert_title" = "Error";
+"ok_button" = "OK";
+
+// Ongoing Rides View
+"in_progress_rides_title" = "In-progress Rides";
+"no_ongoing_rides" = "No ongoing rides found";
+"successfully_completed_rides" = "Successfully completed %d rides";
+"phone_number_missing" = "Phone number is missing or invalid";
+
+// Rides Given View
+"rides_given_title" = "Rides Given";
+"no_rides_found" = "No rides found";
+
+// Rides Taken View
+"rides_taken_title" = "Rides Taken";
+
+// Upcoming Rides View
+"upcoming_rides_title" = "Upcoming Rides";
+"no_upcoming_rides" = "No upcoming rides found";
+"loading_text" = "Loading...";
+
+// Profile View
+"profile_title" = "Profile";
+"edit_profile" = "EDIT";
+"user_id" = "User ID";
+"created_date" = "Created Date";
+"modified_date" = "Modified Date";
+"mobile_number" = "Phone Number";
+"address" = "Address";
+"address_line_1" = "Address Line 1";
+"address_line_2" = "Address Line 2";
+"city" = "City";
+"state" = "State";
+"landmark" = "Landmark";
+"zip_code" = "Zip Code";
+
+// Profile Edit View
+"edit_profile_title" = "Edit Profile";
+"first_name" = "First Name";
+"last_name" = "Last Name";
+"email" = "Email Address";
+"save" = "SAVE";
+"profile_updated_successfully" = "Profile Updated Successfully";
+"profile_image_options" = "Profile Image Options";
+"profile_image_deleted" = "Profile Image Deleted Successfully";
+"upload_new_image" = "Upload New Image";
+"delete_image" = "Delete Image";
+"first_name_required" = "First name is required";
+"last_name_required" = "Last name is required";
+"email_required" = "Email is required";
+"mobile_number_required" = "Phone number is required";
+"address_line_1_required" = "Address line 1 is required";
+"city_required" = "City is required";
+"state_required" = "State is required";
+"pin_code_required" = "Pin code is required";
+"invalid_pin_code" = "Invalid pin code";
+
+// DatePickerPopup
+"expiration_date" = "Expiration Date";
+"apply" = "Apply";
+
+// SuccessPopupView
+"profile_created_success" = "Profile Successfully\nCreated";
+"proceed_to_verification" = "Please proceed to background\nverification";
+"proceed" = "Proceed";
+
+// BackgroundVerificationView
+"background_verification_title" = "Background Verification";
+"ssn_verification" = "SSN Verification";
+"ssn_last_4" = "Last 4 digits of SSN";
+"enter_ssn_last_4" = "Enter last 4 digits of SSN";
+"consent_verification" = "Consent Verification";
+"consent_background_check" = "I consent to background check";
+"submit" = "Submit";
+"error_alert_title" = "Error";
+"error_occurred" = "An unknown error occurred";
+"ok_button" = "OK";
+"cancel_button" = "Cancel";
+
+// BackgroundVerificationView Additional Strings
+"driver_license_photo" = "Driver License - Capture Photo";
+"or" = "Or";
+"license_state" = "Licensed State";
+"license_number" = "DL000000000000";
+"select_home_address" = "Select Home Address and City";
+
+// CreateHomeAddressView
+"home_address" = "Home address";
+"address_line_1" = "Address line 1";
+"address_line_2" = "Address line 2";
+"optional" = "Optional";
+"next_profile_picture" = "Next: Add Profile Picture (2/8)";
+
+// CreateProfileView+Step1
+"create_profile" = "Create your Profile";
+"let_us_know" = "Let us know how to properly address you.";
+"first_name" = "First Name";
+"last_name" = "Last Name";
+"email" = "Email";
+"mobile_number" = "Phone Number";
+"password" = "Password";
+"confirm_password" = "Confirm Password";
+"password_strength" = "Password Strength";
+"contains_uppercase" = "Contains uppercase letter";
+"min_8_chars" = "At least 8 characters";
+"contains_number_special" = "Contains a number or special character";
+"passwords_match" = "Passwords match";
+"next_home_address" = "Next: Add Home Address (1/8)";
+"error_alert_title" = "Error";
+"ok_button" = "OK";
+
+// ProfilePhotoVerification+Step3
+"take_profile_photo" = "Take your profile photo";
+"profile_photo_help" = "Your profile photo helps people recognize you.";
+"photo_guideline_1" = "1. Ensure your photo is clear and recognizable.";
+"photo_guideline_2" = "2. Use a recent photo that reflects your current appearance.";
+"photo_guideline_3" = "3. Avoid using group photos; focus on just you.";
+"photo_verification_message" = "Our team will verify that your photo is of a live person, taken in real-time and we will use the photo to check for duplication across other accounts.";
+"next_accept_policies" = "Next: Accept policies (3/8)";
+"error_alert_title" = "Error";
+"ok_button" = "OK";
+"choose_image_source" = "Choose Image Source";
+"camera" = "Camera";
+"photo_library" = "Photo Library";
+"cancel_button" = "Cancel";
+
+// TermsAndPrivacyView+Step4
+"accept_terms_privacy" = "Accept Terms and Privacy Policies";
+"address_verification" = "Address Verification";
+"address_verification_desc" = "Address on my Drivers License is same as my parmenent address.";
+"car_insurance_requirement" = "Car Insurance Requirement";
+"car_insurance_requirement_desc" = "I carry at least state-required car insurance.";
+"driver_liability_disclaimer" = "Driver Liability Disclaimer";
+"driver_liability_disclaimer_desc" = "I understand that, when travelling as the driver, exchange is not responsible for any accidents or harm caused to my car or the passengers in the car including myself.";
+"ride_taker_liability_disclaimer" = "Ride Taker Liability Disclaimer";
+"ride_taker_liability_disclaimer_desc" = "I understand that, when travelling as the ride taker, exchange is not responsible for any accidents caused to me during any accident.";
+"criminal_history_affirmation" = "Criminal History Affirmation";
+"criminal_history_affirmation_desc" = "I affirm that I have no criminal history including sex offences, DUI etc., and agree to background screening of my profile by the exchange as per their rules.";
+"accuracy_of_information_statement" = "Accuracy of Information Statement";
+"accuracy_of_information_statement_desc" = "I attest that all information provided by me in the registration process is true and accurate, at the time of registration";
+"decline" = "Decline";
+"accept" = "Accept";
+"error_alert_title" = "Error";
+"ok_button" = "OK";
+
+// FeedbackView
+"please_rate_your_experience" = "Please rate your experience with %@";
+"overall_rating" = "Overall Rating";
+"rate_categories" = "Rate Categories";
+"additional_comments" = "Additional Comments";
+"share_experience_placeholder" = "Share your experience about the ride...";
+"favorite" = "Favorite";
+"unfavorite" = "Unfavorite";
+"submit" = "Submit";
+"error_alert_title" = "Error";
+"ok_button" = "OK";
+
+// EmergencyContact
+"first_name" = "First Name";
+"last_name" = "Last Name";
+"mobile_number" = "Phone Number";
+"email_optional" = "Email (optional)";
+"delete_contact" = "Delete Contact";
+"save_contact" = "Save Contact";
+"update_contact" = "Update Contact";
+"next_ready_schedule_ride" = "Next: You are ready to schedule ride (8/8)";
+"add_contact" = "Add Contact";
+"edit_contact" = "Edit Contact";
+"emergency_contacts" = "Emergency Contacts";
+"delete_button" = "Delete";
+"cancel_button" = "Cancel";
+"delete_contact_confirmation" = "Are you sure you want to delete this contact? This action cannot be undone.";
+"no_emergency_contacts" = "No Emergency Contacts";
+"add_emergency_contacts_message" = "Add emergency contacts that will be notified during emergencies";
+"add_emergency_contact" = "Add Emergency Contact";
+"emergency_contact" = "Emergency Contact";
+"error_alert_title" = "Error";
+"ok_button" = "OK";
+
+// Dashboard View
+"my_children" = "My Children";
+"all_activities" = "All Activities";
+"my_vehicles" = "My Vehicles";
+"schedule_a_ride" = "Schedule A Ride";
+"in_progress_ride" = "In-progress ride";
+"ride_given" = "Ride Given";
+"ride_taken" = "Ride Taken";
+"upcoming_rides" = "Upcoming Rides";
+"emergency_contacts" = "Emergency Contacts";
+"loading_text" = "Loading...";
+
+// RideUserCard
+"successfully_completed_rides" = "Successfully completed %d rides";
+"same_community" = "Same Community";
+"distance" = "Distance";
+
+// ChildListItemView
+"child_name" = "%@ %@";
+
+// ActivityRowView
+"pickup" = "Pickup";
+"min_before" = "%@ min before";
+"pickup_role" = "%@";
+
+// AddChildInfoView
+"provide_children_details" = "Provide details of your children";
+"add_photo" = "Add Photo";
+"first_name" = "First Name";
+"last_name" = "Last Name";
+"gender" = "Gender";
+"select_gender" = "Select Gender";
+"male" = "Male";
+"female" = "Female";
+"other" = "Other";
+"date_of_birth" = "Date of Birth";
+"phone_number" = "Phone Number";
+"phone_number_optional" = "Phone Number (Optional)";
+"save" = "Save";
+"next_add_child_activity" = "Next: Add Child Activity (5/8)";
+"children_info" = "Children Info";
+"first_name_required" = "First name is required";
+"last_name_required" = "Last name is required";
+"select_gender_required" = "Please select a gender";
+"valid_dob_required" = "Please select a valid date of birth";
+"required_fields_error" = "Please fill in all required fields correctly";
+"error" = "Error";
+"ok" = "OK";
+
+// ChildrenView
+"review_update_children" = "Review and update your children profile";
+"retry" = "Retry";
+"no_child_added" = "No Child Added";
+"add_children" = "Add Children";
+"children" = "Children";
+
+// ChildRowView
+"child_name_format" = "%@ %@";
+
+// EditChildView
+"change_photo" = "Change Photo";
+"edit_child_details" = "Edit Child Details";
+"delete_child" = "Delete Child";
+"save_changes" = "Save Changes";
+"details_updated" = "Details updated!";
+"fill_required_fields" = "Please fill in all required fields";
+"error_prefix" = "Error: %@";
+"exception_prefix" = "Exception: %@";
+"cannot_delete_child" = "Cannot delete child: Invalid ID";
+"retry" = "Retry";
+
+// Authentication Views
+"select_country" = "Select Country";
+"cancel" = "Cancel";
+"please_enter_email_password" = "Please enter both email and password";
+"invalid_url" = "Invalid URL. Please try again.";
+"invalid_response" = "Invalid response from server. Please try again.";
+"no_data" = "No data received. Please try again.";
+"unknown_error" = "An unknown error occurred. Please try again.";
+"sign_in_with_email" = "Sign In with email";
+"sign_in_with_registered_email" = "Sign in with your registered email address";
+"sign_in" = "Sign in";
+"sign_in_with_number" = "Sign in with Phone Number";
+"sign_in_with_phone" = "Sign in with Phone Number";
+"please_enter_valid_phone" = "Please Enter Valid Phone Number";
+"sign_in_with_registered_phone" = "Sign in with registered phone";
+"dont_have_account" = "Don't have an account? ";
+"lets_create" = "Let's Create";
+"signup_with_email" = "Signup with email";
+"otp_verification_message" = "You will receive an OTP for verification";
+"enter_your_email" = "Enter your email";
+"signup_with_mobile_number" = "Signup with Phone Number";
+"notice" = "Notice";
+"enter_verification_code" = "Enter Verification code";
+"sent_to_email" = "sent to your email address %@";
+"verification_code_sent" = "Verification code sent successfully!";
+"error_sending_code" = "Error in sending code. Please try again later.";
+"did_not_receive_code" = "Did not receive the code yet?";
+"resend_verification_code" = "Resend new Verification code";
+"success" = "Success";
+"email_verified_successfully" = "Email verified successfully!";
+"sent successfully" = "sent successfully";
+
+// Phone Number Auth
+"verify_phone_number" = "Verify Phone Number";
+"enter_otp_message" = "Enter the verification code sent to your phone";
+"resend_otp" = "Resend OTP";
+"verify" = "Verify";
+"back_to_signin" = "Back to Sign In";
+"notice" = "Notice";
+"ok" = "OK";
+"please_enter_valid_otp" = "Please enter a valid OTP";
+"invalid_url" = "Invalid URL";
+"invalid_response" = "Invalid response from server";
+"no_data" = "No data received";
+"error_processing_response" = "Error processing response";
+"error_processing_encode" = "Error processing request";
+"unknown_error" = "An unknown error occurred";
+"otp_resent" = "OTP has been resent to your phone";
+"verification_failed" = "Verification failed: %@";
+"otp_verified_successfully" = "OTP Verified Successfully";
+
+// PickupTimeSheet
+"preferred_pickup_time" = "Preferred Pickup Time Before Ride";
+"apply" = "Apply";
+
+// ActivityChildListView
+"no_children_added" = "No Children Added";
+"add_children_message" = "Add children to schedule activities";
+"choose_child_message" = "Choose a child to view activity";
+"select_child_title" = "Select Child";
+
+// ActivityDetailView
+"activity_details_title" = "%@ %@ - Activity Details";
+"no_activities_scheduled_for_day" = "No activities scheduled for %@";
+"no_activities_scheduled" = "No activities scheduled";
+"add_more_activity" = "Add More Activity";
+
+// AddUpdateActivityView
+"activity_sub_type" = "Activity Sub Type";
+"activity_location_address" = "Activity Location / Address";
+"activity_type" = "Activity Type";
+"activity_title" = "%@ %@ - %@ Activity";
+"activity_provider" = "Activity Provider";
+"activity_start_time" = "Activity Start Time";
+"activity_end_time" = "Activity End Time";
+"delete_activity" = "Delete Activity";
+"save_activity" = "Save Activity";
+"update_activity" = "Update Activity";
+"next_add_activity" = "Next: Add Activity(6/8)";
+"activity_saved_success" = "Activity has been saved successfully!";
+"error_title" = "Error";
+"ok_button" = "OK";
+"child_info_missing" = "Child information is missing";
+"select_day_time_slot" = "Please select at least one day and time slot";
+"select_provider_location" = "Please select a provider location";
